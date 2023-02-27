@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from . import Song
+from .models import Song
 
 class SongSerializer(serializers.ModelSerializer):
     class Meta:
